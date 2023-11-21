@@ -28,6 +28,11 @@ public class Proveedor {
         this.nombre = nombre;
     }
 
+    /**
+     * Metodo constructor de la clase proveedor
+     * @param codigo Codigo del proveedor
+     * @param nombre Nombre del proveedor
+     */
     public Proveedor(int codigo, String nombre) {
         this.codigo = codigo;
         this.nombre = nombre;

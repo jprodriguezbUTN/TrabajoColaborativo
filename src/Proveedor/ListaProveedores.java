@@ -17,6 +17,11 @@ public class ListaProveedores {
         lista.add(prov);
     }
     
+    /**
+     * Metodo que permite buscar proveedores en el arraylist
+     * @param codigo Codigo del proveedor a buscar
+     * @return Retorna el proveedor que coincide con el codigo o null sino lo encuentra
+     */
     public Proveedor buscar(int codigo){
         for (Proveedor prov:lista){
             if(prov.getCodigo()==codigo){
